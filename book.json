@@ -6,7 +6,6 @@
     "root": ".",
 
     "plugins": [
-        "donate",
         "github-buttons@2.1.0",
         "edit-link",
         "disqus",
@@ -16,14 +15,6 @@
     ],
 
     "pluginsConfig": {
-        "donate": {
-            "wechat": "https://sphard.com/images/wechatpay.jpg",
-            "alipay": "https://sphard.com/images/alipay.jpg",
-            "title": "",
-            "button": "打赏",
-            "alipayText": "支付宝打赏",
-            "wechatText": "微信打赏"
-        },
         "github-buttons": {
             "repo": "darrenliuwei/gitbook",
             "types": [
