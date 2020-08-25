@@ -1,13 +1,12 @@
 {
-    "title": "编写gitbook电子书教程",
-    "description": "gitbook电子书教程",
-    "author": "sphard",
+    "title": "Mirobot使用教程",
+    "description": "插件：评论、搜索、github、编辑",
+    "author": "curvaboy",
     "language": "zh-hans",
     "root": ".",
 
     "plugins": [
-        "github-buttons@2.1.0",
-        "edit-link",
+        "github",
         "disqus",
         "-search",
         "search-pro",
@@ -15,16 +14,8 @@
     ],
 
     "pluginsConfig": {
-        "github-buttons": {
-            "repo": "darrenliuwei/gitbook",
-            "types": [
-                "star"
-            ],
-            "size": "small"
-        },
-        "edit-link": {
-            "base": "https://github.com/darrenliuwei/gitbook/edit/master",
-            "label": "Edit This Page"
+        "github": {
+            "url": "https://github.com/lin-nice"
         },
         "disqus": {
         "shortName": "gitbookuse"
@@ -34,7 +25,6 @@
         "defineWord" : ["Gitbook Use"]
         },
         "tbfed-pagefooter": {
-        "copyright":"Copyright &copy zhangjikai.com 2015",
         "modify_label": "该文件修订时间：",
         "modify_format": "YYYY-MM-DD HH:mm:ss"
         }

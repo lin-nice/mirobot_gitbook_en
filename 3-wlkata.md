@@ -2,11 +2,11 @@
 写字的整体流程如下:
 写字笔安装→调整设置画笔高度→开始写作或画画
 ##&diams; 写字笔安装
-<center><img src="https://github.com/wlkata/Picture/blob/master/3/3-1.png?raw=true" width="350" height="250" > </center>
 第1步：将笔夹固定到机械臂末端<br/>
 第2步：用M1.5内六角螺丝刀拧紧顶丝，将笔夹与机器人末端电机轴固定<br/>
 第3步：将画笔从上向下插入笔夹内<br/>
 第4步：拧紧笔夹固定螺帽<br/>
+<center><img src="https://github.com/wlkata/Picture/blob/master/3/3-1.png?raw=true" width="350" height="250" > </center>
 
 ##&diams; 调整设置画笔高度
 第1步：连接机械臂电源及USB线后，按下Mirobot机械臂底座侧面的开关按钮。
