@@ -2,9 +2,9 @@
 ##&diams; Python编程界面讲解
 打开Mirobot Studio进入Python编程界面，下图中上方黄色矩形框内为代码文件操作区，左侧红色矩形框内为Python API选项区，右侧绿色框内为Python代码编辑区。
 <font color="red">注：代码编辑区中默认的8行代码不可随意更改！</font>
-<center><img src="https://github.com/wlkata/Picture/blob/master/8/8-1.png?raw=true" width="600" height="300" > </center>
+<center><img src="http://lin88zhang.gitee.io/image/8/8-1.png" width="600"  > </center>
 1.文件操作区
-<center><img src="https://github.com/wlkata/Picture/blob/master/8/8-2.png?raw=true" width="600" height="300" > </center>
+<center><img src="http://lin88zhang.gitee.io/image/8/8-2.png" width="600"  > </center>
 &rArr; 新建：新建Pyhton文件<br/>
 &rArr; 打开：打开本地文件<br/>
 &rArr; 保存：保存文件，默认保存到data目录<br/>
@@ -12,7 +12,7 @@
 &rArr; 运行：运行工作区中的代码<br/>
 2.Python API选项区
 整个控制区选项分为3大类（动作、角度控制、坐标控制），共计16个功能模块，双击可直接添加使用
-<center><img src="https://github.com/wlkata/Picture/blob/master/8/8-3.png?raw=true" width="600" height="300" > </center>
+<center><img src="http://lin88zhang.gitee.io/image/8/8-3.png" width="600"  > </center>
 （1）动作选项<br/>
 &rArr; 复位（api.home_simultaneous()）：执行Mirobot机械臂复位动作<br/>
 &rArr; 解锁（api.unlock_shaft()）：解锁机械臂各关节<br/>

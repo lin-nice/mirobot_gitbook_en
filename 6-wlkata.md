@@ -1,10 +1,10 @@
 # <center>WLKATA Studio点位示教-复现教程</center>
 ##&diams; 点位示教-复现步骤
 第1步：点击“示教控制”进入界面
-<center><img src="https://github.com/wlkata/Picture/blob/master/6/6-1.png?raw=true" width="600" height="300" > </center>
+<center><img src="http://lin88zhang.gitee.io/image/6/6-1.png" width="600"  > </center>
 第2步：选择运动控制模式
 角度模式下，记录各个轴位置参数；坐标控制模式下，记录机械臂末端位置与姿态参数。此处选择坐标控制模式。
-<center><img src="https://github.com/wlkata/Picture/blob/master/6/6-2.png?raw=true" width="600" height="300" > </center>
+<center><img src="http://lin88zhang.gitee.io/image/6/6-2.png" width="600"  > </center>
 ①在界面右侧控制界面中控制机械臂运动到指定位置后点击“添加”按钮增加点位记录当前机械臂位置<br/>
 ②在“夹具”按钮中选择对应夹具并在“开关”状态栏选择夹具状态。<br/>
 ③选中记录完成的坐标，点击“单步”按钮可调试验证单步示教<br/>
