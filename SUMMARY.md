@@ -1,4 +1,3 @@
-# Summary
 
 * [前言](README.md)
 * [控制软件安装指南](0-wlkata.md)
