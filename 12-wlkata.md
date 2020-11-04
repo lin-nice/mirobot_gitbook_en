@@ -1,14 +1,5 @@
-# <center>Mirobot校准教程</center>
-手动校准详细步骤：
-<center><img src="http://lin88zhang.gitee.io/image/12/12-1.png" width="600"  > </center>
-第1步：打开机械臂电源，打开Mirobot Studio软件在“命令控制”界面输入“M50”点击“发送”解锁各轴点击。
-<center><img src="http://lin88zhang.gitee.io/image/12/12-2.png" width="600"  > </center>
-第2步：进入“设置”界面，点击“校准-开始”。
-<center><img src="http://lin88zhang.gitee.io/image/12/12-3.png" width="600"  > </center>
-第3步：在角度控制模式下，通过调节右侧“J1~J6”控制各轴到相应位置。
-<font color="red">注：第4轴必须通过负步伐才有效，其它各轴就近调整。第6轴为默认位置</font>
-<center><img src="http://lin88zhang.gitee.io/image/12/12-4.png" width="600"  > </center>
-第4步：机械臂各轴转动到对应位置后，再次进入“设置”界面，点击“完成”。
-<center><img src="http://lin88zhang.gitee.io/image/12/12-5.png" width="600"  > </center>
-第5步：完成校准后，点击复位，正常复位后机械臂姿态如下图。
-<center><img src="http://lin88zhang.gitee.io/image/12/12-6.png" width="350"  > </center>
+# <center>12. Disclaimers</center>
+&ensp;&ensp;&ensp;&ensp;To the maximum extent permitted by law, the products described in this manual (including its hardware, software, etc.) are provided "as is" and may have defects, errors or malfunctions. Beijing Tsinew Technology Co., Ltd. does not provide any form of express or Implied warranties, including but not limited to warranties of merchantability, quality satisfaction, suitability for a particular purpose, and non-infringement of third party rights; nor does it impose any special, incidental, incidental, or indirect damages resulting from the use of this manual or the use of our products Compensation. <br/><br/>
+&ensp;&ensp;&ensp;&ensp;Before using this product, PLEASE read this instruction manual and related technical documents published on the Internet and understand the relevant information to ensure that you can use the product on the premise of fully understanding the relevant knowledge. Beijing Tsinew Technology Co., Ltd. recommends that you use this product under the guidance of professionals. All safety information contained in this manual should not be regarded as a guarantee of the product. Even if the relevant instructions are followed, the harm or loss caused during use may still occur. <br/><br/>
+&ensp;&ensp;&ensp;&ensp;It is the responsibility of the user of this product to ensure that the applicable laws and regulations of the relevant country are followed, and that there is no major danger in the use of Beijing Tsinew Technology Co., Ltd.<br/><br/>
+&ensp;&ensp;&ensp;&ensp;This product should be used in an environment that meets the requirements. If the product is modified without official authorization, the product cannot be used normally, or it may cause personal injury, electric shock, or fire. All consequences shall be borne by the user.

@@ -1,13 +1,8 @@
-# <center>Mirobot固件升级教程</center>
-目前仅WLKATA Studio V1.014及以上版本支持控制软件固件升级。
-固件升级的流程:
-<center><img src="http://lin88zhang.gitee.io/image/11/11-1.png" width="600"  > </center>
-第1步：使用USB数据线连接机械臂与计算机，接通电源
-<center><img src="http://lin88zhang.gitee.io/image/11/11-2.png" width="350"  > </center>
-第2步：打开WLKATA Studio软件进入“设置”界面，点击“更新固件”
-<center><img src="http://lin88zhang.gitee.io/image/11/11-3.png" width="600"  > </center>
-第3步：在弹出窗口中点击“Upload”更新固件
-<center><img src="http://lin88zhang.gitee.io/image/11/11-4.png" width="600"  > </center>
-等待Wlkata studio固件刷新成功提示
-<center><img src="http://lin88zhang.gitee.io/image/11/11-5.png" width="600"  > </center>
-<font color="red">注：</font>固件升级完成后Wlkata studio软件会自动发送固件升级前的各轴初始数据，可直接对机械臂进行复位。若Wlkata studio软件命令控制显示栏没有发送各轴初始数据，需手动校准后再复位（手动校准机械臂参考教程《Mirobot机械臂校准教程》）。
+# <center>11. Cautions and Disclaimers</center>
+&ensp;&ensp;&ensp;&ensp;Before using the Mirobot Bluetooth remote control, please read the product manual carefully. The operation and system developers of the Bluetooth remote control must first read the manual carefully and use this remote control strictly in accordance with the operation guide.<br/><br/>
+Observe the following when using a Bluetooth remote control:<br/>
+&ensp;&ensp;&ensp;&ensp;•When placing the remote control, be sure to handle it gently. Follow the instructions on the packing box and place it in the direction of the arrow. Otherwise, the machine may be damaged.<br/>
+&ensp;&ensp;&ensp;&ensp;•Please use the remote control within the specified environment. Use beyond the conditions of the remote control will shorten the service life and even damage the equipment, causing personal injury and property damage.<br/>
+&ensp;&ensp;&ensp;&ensp;•Do not place the Bluetooth remote control in a humid environment or immerse it in liquid. The short circuit of the internal circuit will damage the remote control. When you accidentally spill water on the remote control, you should immediately turn off the power and wait for the remote control to be used in natural air-dry conditions.<br/>
+&ensp;&ensp;&ensp;&ensp;•Children must be monitored by adults during use. It is strictly forbidden for children to bite the remote control button.  <br/>
+&ensp;&ensp;&ensp;&ensp;•If this product is discarded, please follow relevant laws to properly dispose of industrial waste and protect the environment.<br/>   

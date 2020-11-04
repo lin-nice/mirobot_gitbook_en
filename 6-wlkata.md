@@ -1,14 +1,30 @@
-# <center>WLKATA Studio点位示教-复现教程</center>
-##&diams; 点位示教-复现步骤
-第1步：点击“示教控制”进入界面
-<center><img src="http://lin88zhang.gitee.io/image/6/6-1.png" width="600"  > </center>
-第2步：选择运动控制模式
-角度模式下，记录各个轴位置参数；坐标控制模式下，记录机械臂末端位置与姿态参数。此处选择坐标控制模式。
-<center><img src="http://lin88zhang.gitee.io/image/6/6-2.png" width="600"  > </center>
-①在界面右侧控制界面中控制机械臂运动到指定位置后点击“添加”按钮增加点位记录当前机械臂位置<br/>
-②在“夹具”按钮中选择对应夹具并在“开关”状态栏选择夹具状态。<br/>
-③选中记录完成的坐标，点击“单步”按钮可调试验证单步示教<br/>
-④记录多个示教动作后，点击运行则可播放示教<br/>
-⑤选中对应示教点，点击“删除”、“向上/下”、“复制”按钮可对该示教点进行删除、向上/下移动、复制操作<br/>
-⑥点击“撤销”按钮，可对上一个操作执行撤销回恢复操作<br/>
-⑦点击粘贴，可在当前选中示教点的下一行粘贴已经复制好的文件<br/>
+# <center>6. Using the Pneumatic Set</center>
+&ensp;&ensp;&ensp;&ensp;The pneumatic set includes a Pneumatic Unit, three pneumatic tools (a Suction Cup, a 2-Finger Gripper and a Universal Ball Gripper) and the wire connector. Please follow the instruction in below to install and use the Pneumatic Unit correctly.
+
+***
+<span class="left"><img src="http://lin88zhang.gitee.io/image_en/0/0-19.png" width="60" ></span>**<font color="red">Power off </font>the manipulator before installing the Pneumatic Set, or it could cause damage to the circuits of Pneumatic Unit or Extender Box.**<br/>
+***
+&ensp;&ensp;&ensp;&ensp;(1) Power off the manipulator. <br/>
+&ensp;&ensp;&ensp;&ensp;(2) Install the wanted pneumatic tool by screwing it on the tip of the end-effector with supplied hex screwdriver.<br/>
+&ensp;&ensp;&ensp;&ensp;(3) Before plugging the gripper wire connector into the Extender Box unit, trim off the fix protrusions on the wire connector to allow re-plug-in. Otherwise, the wire connector will be hardly unplugged from the socket. <br/>
+&ensp;&ensp;&ensp;&ensp;(4) Plug one end of the wire connector into the lower-second socket position (PUMP) on the Extender Box unit.<br/>
+&ensp;&ensp;&ensp;&ensp;(5) Plug the other end of the wire connector into the Pneumatic Unit.<br/>
+&ensp;&ensp;&ensp;&ensp;(6) Link the air pipe on the Pneumatic Unit with the metal air outlet on the pneumatic tool.<br/>
+&ensp;&ensp;&ensp;&ensp;(7) Link the Extender Box with the Mirobot by using the supplied IDC cable.<br/>
+<center><img src="http://lin88zhang.gitee.io/image_en/6/6-1.jpg" width="500"> </center>
+<div align="center">
+<img src="http://lin88zhang.gitee.io/image_en/6/6-2.jpg" width="300"><img src="http://lin88zhang.gitee.io/image_en/6/6-3.jpg" width="300">
+</div>
+<div align="center">
+<img src="http://lin88zhang.gitee.io/image_en/6/6-4.jpg" width="250"><img src="http://lin88zhang.gitee.io/image_en/6/6-5.jpg" width="250"><img src="http://lin88zhang.gitee.io/image_en/6/6-6.jpg" width="250">
+</div>
+<center>The method of connecting the Pneumatic Set with the manipulator</center>
+&ensp;&ensp;&ensp;&ensp;(8) Control the pneumatic tool status (suction cup on and off): The pneumatic tool can be controlled under the COMMAND, TEACHING and BLOCKLY functions in the WLKATA Studio:<br/>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;•In the COMMAND page, control the pneumatic tool by click the End-effect on and End-effector off buttons on the right panel. <br/>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;•In the TEACHING page, control the pneumatic tool by editing the Trigger cell and Value cell of the teaching point line. <br/>
+<center><img src="http://lin88zhang.gitee.io/image_en/6/6-7.png" width="600"> </center>
+<center>Controlling the pneumatic tool in the TEACHING function</center>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;•In the BLOCKLY page, control the pneumatic tool by drag and edit the Suction Cup module which can be found in the Motion panel. <br/>
+<center><img src="http://lin88zhang.gitee.io/image_en/6/6-8.png" width="600"> </center>
+<center>Controlling the pneumatic tool in the BLOCKLY function</center>
+&ensp;&ensp;&ensp;&ensp;(9) When finish using the gripper, <font color="red">Power off</font> the manipulator, and <font color="red">unplug</font> the IDC cable from the back of manipulator.

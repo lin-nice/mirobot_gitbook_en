@@ -2,7 +2,7 @@
     "title": "Mirobot使用教程",
     "description": "插件：多语言、评论、搜索、github、编辑",
     "author": "curvaboy",
-    "language": "zh-hans",
+    "language": "en",
     "root": ".",
 
     "plugins": [
@@ -12,7 +12,8 @@
         "-search",
         "search-pro",
         "tbfed-pagefooter",
-        "insert-logo"
+        "insert-logo",
+        "splitter"
         
     ],
 

@@ -1,45 +1,56 @@
-# <center>WLKATA Studio-Blockly编程指南</center>
-##&diams; Blockly图形化编程界面讲解
-打开Mirobot Studio进入Blockly图形化编程界面，下图中中间黄色矩形框内为图形化编程工作区，右侧绿色框内为Python代码显示区。可拖动分界轴调整工作区大小或隐藏代码生成区
-<center><img src="http://lin88zhang.gitee.io/image/7/7-1.png" width="600"  > </center>
-1.基础功能
-<center><img src="http://lin88zhang.gitee.io/image/7/7-2.png" width="600"  > </center>
-&rArr; 新建：新建文件夹<br/>
-&rArr; 打开：打开本地文件<br/>
-&rArr; 保存：保存文件，默认保存到data目录<br/>
-&rArr; 另存为：将修改后的文件另存<br/>
-&rArr; 导出：将Gcode导出到本地文件夹<br/>
-&rArr; 下载：下载Gcode到机械臂分控板<br/>
-&rArr; 运行：运行工作区中的代码<br/>
-&rArr; 单步：选中工作区一个代码块，单步该条代码<br/>
-2.Blockly编程模块
-<center><img src="http://lin88zhang.gitee.io/image/7/7-3.png" width="600"  > </center>
-动作选项中Mirobot常用编程代码块共有14个，分别为：<br/>
-&rArr; 复位：Mirobot机械臂复位动作。<br/>
-&rArr; 回归零位：Mirobot机械臂由当前位置移动至角度控制模式下的全零位置。<br/>
-&rArr; 延迟下发（）秒：程序延迟指定时间后下发下一条指令。<br/>
-&rArr; 延时执行（）秒：延迟指定时间后执行下一条指令。<br/>
-&rArr; 移动到坐标：Mirobot机械臂由当前位置移动至坐标控制模式下的指定位置。<br/>
-&rArr; 向（前/后/上/下）移动（）速度（）：由当前位置向指定方向移动指定坐标数（前、后、左、右、上、下）。<br/>
-&rArr; 吸盘（开/关）：控制吸盘的打开或关闭。<br/>
-&rArr; 夹具（开/关）：控制夹具的打开或关闭。<br/>
-&rArr; 滑轨移动到（）速度（）：控制滑轨向指定位置移动。<br/>
-&rArr; 传送带移动带（相对位置/绝对位置）速度（）：控制传送带向指定位置移动。<br/>
-&rArr; 旋转到：Mirobot机械臂由当前位置移动至角度控制模式下的指定位置。<br/>
-&rArr; （关节X）延（逆/顺）旋转（）：指定Mirobot机械臂指定关节顺时针或逆时针移动指定坐标。<br/>
-&rArr; 门型轨迹移动：以门型轨迹移动到指定的相对或绝对位置。<br/>
-&rArr; 圆弧轨迹移动：以弧形轨迹移动的要求绘制弧线<br/>
-##&diams; 拖拽拼接代码块让机械臂动起来
-<center><img src="http://lin88zhang.gitee.io/image/7/7-4.png" width="600"  > </center>
-动作说明：<br/>
-&rArr; 对机械臂进行复位<br/>
-&rArr; 让以下动作循环执行10次<br/>
-&rArr; 让机械臂从复位后的“零位”以1500mm/min速度移动到A点，坐标为“X202Y0Z20”，末端姿态不变<br/>
-&rArr; 机械臂从A点以1500mm/min速度移动到B点，坐标为“X202Y0Z200”，末端姿态不变<br/>
-&rArr; 机械臂从B点以1500mm/min速度回到零点位置<br/>
-&rArr; 将机械臂第一轴以1500°/min速度旋转到绝对位置+20°<br/>
-&rArr; 机械臂第一轴以1500°/min速度旋转到绝对位置-20°<br/>
-&rArr; 机械臂回归零位<br/>
+# <center>7. Using the Python programming</center>
+&ensp;&ensp;&ensp;&ensp;Please be aware that WLKATA Studio supports Python 3.8 and below.
+##Step 1.Preparation
+&ensp;&ensp;&ensp;&ensp;(1) Switch to Python function in the WLKATA Studio by click the PYTHON tab in the software interface.<br/>
+&ensp;&ensp;&ensp;&ensp;(2) Please DO NOT change the first 8 lines of code in the python window.  <br/>
 
+***
+<span class="left"><img src="http://lin88zhang.gitee.io/image_en/0/0-19.png" width="60" ></span>**Please <font color="red">DO NOT change or delete the first 8 lines </font>of code in the python window, or the manipulator may run discordant and cause illegal motions.**<br/>
+***
+<center><img src="http://lin88zhang.gitee.io/image_en/7/7-1.png" width="600"> </center>
+<center>DO NOT change or delete the first 8 lines of code in the python window</center>
 
+##Step 2. Quick command library in the Python programming
+&ensp;&ensp;&ensp;&ensp;There are three groups of Quick commands in the library, the Action options, Angle control options and Coordinate control options. Double click the Quick command and the code will be inserted into the command line.<br/>
+The list of Quick command and description is as below:
+
+| Quick commands group | Quick command | Description |
+| :------: | :------: | :------:|
+| **Action options** |  |  |
+| Homing | api.home_simultaneous() | Perform the homing routine on all axis at the same time. |
+| Unlock | api.unlock_shaft() | Unlock the shaft enabling movement.|
+| Go to zero | api.go_to_zero() | Send each axis to its 0 position. |
+| Suction cup on | api.suction_cup_on() | Switch on the suction cup. |
+| Suction cup off | api.suction_cup_off() | Switch off the suction cup. |
+| Slider move to | api.slider_move_to(x, speed) | Move the slide rail to the specified position. |
+| Conveyor Move to | api.conveyor_move_to(ConveyorMode.relative, 0, 1500) | Move the slide rail to the specified position |
+| Set Delay Time | api.set_delay_time(1) | Delay the next action after the specified time |
+| **Angle control options** |  |  |
+| Go to axis | api.go_to_axis(0,0,0,0,0,0,1500) | Mirobot moves from the current position to the specified position in the angle mode. |
+| Increment of each axis | api.increment_axis(0,0,0,0,0,0,1500) | Mirobot moves from the current position to the specified position |
+| Move axis | api.move_to_axis(MirobotJoint.Joint1, RevolveDirection.cw, 0, 1500) | Rotate specify axis the specified value in the specified direction |
+| **Coordinate control options** |  |  |
+| Go to Cartesian position | api.go_to_cartesian_lin(202,0,181,0,0,0,1500) | Mirobot moves from the current position to the specified position in the coordinate mode. |
+| The increment in Cartesian space | api.increment_cartesian_lin(0,0,0,0,0,0,1500) | Mirobot moves specified number of coordinates in specified direction. |
+| Directional movement | api.direction_mobility(MoveDirection.forward, 0, 1500) | Mirobot moves specified coordinates independently from the current position in the specified direction |
+| Jump move | api.jump_move(ConveyorMode.relative, 0, 0, 0, 1500) | Jump move to the specified position. |
+| Arc move | api.set_arc_move(MoveMode.relative, RevolveDirection.cw, 0, 0, 0, 60, 1500) | move in an arc path |
+
+##Step 3. An example of Python programming
+```
+#version python 3.8
+#coding=utf-8
+from mirobot import *
+from time import sleep
+api=Mirobot()
+#Please do not delete the above code
+api.home_simultaneous()          #Home Mirobot
+sleep(15)                       #Delay 15s
+for i in range(10):                #Repeat the following actions 10 times
+api.go_to_axis(30,0,0,0,0,0,1500)   #The first axis rotates from the zero position to  
+the absolute position + 30 at 1500°/min
+api.go_to_axis(-30,0,0,0,0,0,1500)   #The first axis rotates from the zero position to  
+the absolute position -30 at 1500°/min
+api.go_to_zero()                  #Back to zero
+```
 

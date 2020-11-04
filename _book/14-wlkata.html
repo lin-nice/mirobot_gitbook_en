@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>11. Cautions and Disclaimers · Mirobot使用教程</title>
+        <title>14. Interface description · Mirobot使用教程</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -73,10 +73,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="12-wlkata.html" />
+    <link rel="next" href="15-wlkata.html" />
     
     
-    <link rel="prev" href="10-wlkata.html" />
+    <link rel="prev" href="13-wlkata.html" />
     
 
     </head>
@@ -248,7 +248,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.12" data-path="11-wlkata.html">
+        <li class="chapter " data-level="1.12" data-path="11-wlkata.html">
             
                 <a href="11-wlkata.html">
             
@@ -287,7 +287,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.15" data-path="14-wlkata.html">
+        <li class="chapter active" data-level="1.15" data-path="14-wlkata.html">
             
                 <a href="14-wlkata.html">
             
@@ -369,7 +369,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >11. Cautions and Disclaimers</a>
+        <a href="." >14. Interface description</a>
     </h1>
 </div>
 
@@ -384,16 +384,98 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="11-cautions-and-disclaimers"><center>11. Cautions and Disclaimers</center></h1>
-<p>&#x2002;&#x2002;&#x2002;&#x2002;Before using the Mirobot Bluetooth remote control, please read the product manual carefully. The operation and system developers of the Bluetooth remote control must first read the manual carefully and use this remote control strictly in accordance with the operation guide.<br><br>
-Observe the following when using a Bluetooth remote control:<br>
-&#x2002;&#x2002;&#x2002;&#x2002;&#x2022;When placing the remote control, be sure to handle it gently. Follow the instructions on the packing box and place it in the direction of the arrow. Otherwise, the machine may be damaged.<br>
-&#x2002;&#x2002;&#x2002;&#x2002;&#x2022;Please use the remote control within the specified environment. Use beyond the conditions of the remote control will shorten the service life and even damage the equipment, causing personal injury and property damage.<br>
-&#x2002;&#x2002;&#x2002;&#x2002;&#x2022;Do not place the Bluetooth remote control in a humid environment or immerse it in liquid. The short circuit of the internal circuit will damage the remote control. When you accidentally spill water on the remote control, you should immediately turn off the power and wait for the remote control to be used in natural air-dry conditions.<br>
-&#x2002;&#x2002;&#x2002;&#x2002;&#x2022;Children must be monitored by adults during use. It is strictly forbidden for children to bite the remote control button.  <br>
-&#x2002;&#x2002;&#x2002;&#x2002;&#x2022;If this product is discarded, please follow relevant laws to properly dispose of industrial waste and protect the environment.<br>   </p>
+                                <h1 id="interface-description"><center>Interface description</center></h1>
+<h2 id="interface-board-of-the-manipulator">Interface board of the manipulator</h2>
+<p>&#x2002;&#x2002;&#x2002;&#x2002;The interface is located at the back of the base of the WLKATA Mirobot , and the schematic diagram of the base interface is shown in Figure below.<br>
+&#x2002;&#x2002;&#x2002;&#x2002;The PIN of the extended communication interface and the definition of each pin is shown in Figure below. <br>
+&#x2002;&#x2002;&#x2002;&#x2002;&#x2022;Ex0 represents the output of pwm1, and EX1 represents the output of pwm2. 1b, 2b, 1a, and 2A refer to the four interfaces of the external sliding rail stepping motor. </p>
+<center><img src="http://lin88zhang.gitee.io/image_en/13/13-1.png" width="500"> </center>
+
+<p><strong><center>PIN and Pin definition of back extension communication interface of substructure</center></strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">pin</th>
+<th style="text-align:center">definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">RX_2</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">TX_2</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center">RX_3</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:center">TX_3</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td style="text-align:center">GND</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">7</td>
+<td style="text-align:center">GND</td>
+</tr>
+<tr>
+<td style="text-align:center">8</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">9</td>
+<td style="text-align:center">5V</td>
+</tr>
+<tr>
+<td style="text-align:center">10</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">11</td>
+<td style="text-align:center">EX0</td>
+</tr>
+<tr>
+<td style="text-align:center">12</td>
+<td style="text-align:center">EX1</td>
+</tr>
+<tr>
+<td style="text-align:center">13</td>
+<td style="text-align:center">2B</td>
+</tr>
+<tr>
+<td style="text-align:center">14</td>
+<td style="text-align:center">1B</td>
+</tr>
+<tr>
+<td style="text-align:center">15</td>
+<td style="text-align:center">2A</td>
+</tr>
+<tr>
+<td style="text-align:center">16</td>
+<td style="text-align:center">1A</td>
+</tr>
+</tbody>
+</table>
+<h2 id="interface-board-of-the-extender-box">Interface board of the Extender Box</h2>
+<p>&#x2002;&#x2002;&#x2002;&#x2002;The WLKATA Mirobot external communication interface needs to be connected with the external expansion interface board (the Extender Box) by using an IDC cable. The common external interface board of WLKATA Mirobot and the Pin definition is shown in Figure below.</p>
+<center><img src="http://lin88zhang.gitee.io/image_en/13/13-2.png" width="350"> </center>
+<center><img src="http://lin88zhang.gitee.io/image_en/13/13-3.png" width="400"> </center>
+<center>WLKATA Mirobot general external interface board (Extender Box) and the Pin definition diagram</center>
+
+
+
 <footer class="page-footer"><span class="copyright">powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2020-11-04 09:33:30
+2020-11-04 10:18:50
 </span></footer>
                                 
                                 </section>
@@ -421,12 +503,12 @@ Observe the following when using a Bluetooth remote control:<br>
 
             
                 
-                <a href="10-wlkata.html" class="navigation navigation-prev " aria-label="Previous page: 10. Copyright and Exemption from Declaration">
+                <a href="13-wlkata.html" class="navigation navigation-prev " aria-label="Previous page: 13. Working principle and specification">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="12-wlkata.html" class="navigation navigation-next " aria-label="Next page: 12. Disclaimers">
+                <a href="15-wlkata.html" class="navigation navigation-next " aria-label="Next page: Appendix I">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -437,7 +519,7 @@ Observe the following when using a Bluetooth remote control:<br>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"11. Cautions and Disclaimers","level":"1.12","depth":1,"next":{"title":"12. Disclaimers","level":"1.13","depth":1,"path":"12-wlkata.md","ref":"12-wlkata.md","articles":[]},"previous":{"title":"10. Copyright and Exemption from Declaration","level":"1.11","depth":1,"path":"10-wlkata.md","ref":"10-wlkata.md","articles":[]},"dir":"ltr"},"config":{"plugins":["multilingual-index","github","disqus","-search","search-pro","tbfed-pagefooter","insert-logo","splitter","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"disqus":{"useIdentifier":false,"shortName":"gitbookuse"},"github":{"url":"https://github.com/lin-nice"},"livereload":{},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"multilingual-index":{"enableSuper":false,"index":"index.html"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"url":"images/logo.png","style":"background: none; max-height: 50px; min-height: 50px"}},"theme":"default","author":"curvaboy","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Mirobot使用教程","language":"en","gitbook":"*","description":"插件：多语言、评论、搜索、github、编辑"},"file":{"path":"11-wlkata.md","mtime":"2020-11-04T01:33:30.464Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-11-04T01:28:16.434Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"14. Interface description","level":"1.15","depth":1,"next":{"title":"Appendix I","level":"1.16","depth":1,"path":"15-wlkata.md","ref":"15-wlkata.md","articles":[]},"previous":{"title":"13. Working principle and specification","level":"1.14","depth":1,"path":"13-wlkata.md","ref":"13-wlkata.md","articles":[]},"dir":"ltr"},"config":{"plugins":["multilingual-index","github","disqus","-search","search-pro","tbfed-pagefooter","insert-logo","splitter","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"disqus":{"useIdentifier":false,"shortName":"gitbookuse"},"github":{"url":"https://github.com/lin-nice"},"livereload":{},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"multilingual-index":{"enableSuper":false,"index":"index.html"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"url":"images/logo.png","style":"background: none; max-height: 50px; min-height: 50px"}},"theme":"default","author":"curvaboy","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Mirobot使用教程","language":"en","gitbook":"*","description":"插件：多语言、评论、搜索、github、编辑"},"file":{"path":"14-wlkata.md","mtime":"2020-11-04T02:18:50.271Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-11-04T01:28:16.434Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

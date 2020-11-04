@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>11. Cautions and Disclaimers · Mirobot使用教程</title>
+        <title>Appendix I · Mirobot使用教程</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -73,10 +73,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="12-wlkata.html" />
+    <link rel="next" href="16-wlkata.html" />
     
     
-    <link rel="prev" href="10-wlkata.html" />
+    <link rel="prev" href="14-wlkata.html" />
     
 
     </head>
@@ -248,7 +248,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.12" data-path="11-wlkata.html">
+        <li class="chapter " data-level="1.12" data-path="11-wlkata.html">
             
                 <a href="11-wlkata.html">
             
@@ -300,7 +300,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.16" data-path="15-wlkata.html">
+        <li class="chapter active" data-level="1.16" data-path="15-wlkata.html">
             
                 <a href="15-wlkata.html">
             
@@ -369,7 +369,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >11. Cautions and Disclaimers</a>
+        <a href="." >Appendix I</a>
     </h1>
 </div>
 
@@ -384,16 +384,41 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="11-cautions-and-disclaimers"><center>11. Cautions and Disclaimers</center></h1>
-<p>&#x2002;&#x2002;&#x2002;&#x2002;Before using the Mirobot Bluetooth remote control, please read the product manual carefully. The operation and system developers of the Bluetooth remote control must first read the manual carefully and use this remote control strictly in accordance with the operation guide.<br><br>
-Observe the following when using a Bluetooth remote control:<br>
-&#x2002;&#x2002;&#x2002;&#x2002;&#x2022;When placing the remote control, be sure to handle it gently. Follow the instructions on the packing box and place it in the direction of the arrow. Otherwise, the machine may be damaged.<br>
-&#x2002;&#x2002;&#x2002;&#x2002;&#x2022;Please use the remote control within the specified environment. Use beyond the conditions of the remote control will shorten the service life and even damage the equipment, causing personal injury and property damage.<br>
-&#x2002;&#x2002;&#x2002;&#x2002;&#x2022;Do not place the Bluetooth remote control in a humid environment or immerse it in liquid. The short circuit of the internal circuit will damage the remote control. When you accidentally spill water on the remote control, you should immediately turn off the power and wait for the remote control to be used in natural air-dry conditions.<br>
-&#x2002;&#x2002;&#x2002;&#x2002;&#x2022;Children must be monitored by adults during use. It is strictly forbidden for children to bite the remote control button.  <br>
-&#x2002;&#x2002;&#x2002;&#x2002;&#x2022;If this product is discarded, please follow relevant laws to properly dispose of industrial waste and protect the environment.<br>   </p>
+                                <h1 id="appendix-i"><center>Appendix I</center></h1>
+<h2 id="wlkata-mirobot-calibration-operation">WLKATA Mirobot Calibration Operation</h2>
+<p><strong>Calibration Operation Procedure:</strong><br>
+&#x2002;&#x2002;&#x2002;&#x2002;The Mirobot is calibrated before leaving the factory. In each time the manipulator finishes the HOMING action, the joint 1, joint 2, joint 3, joint 4 and joint 5 should be homed to the pre-designed homing position.<br>
+&#x2002;&#x2002;&#x2002;&#x2002;After the HOMING action, if one or more of the joints is/are not in the pre-designed homing position, one need to re-calibrate the manipulator. The Calibration procedure is explained as below:<br></p>
+<center><img src="http://lin88zhang.gitee.io/image_en/14/14-1.png" width="600"> </center>
+&#x2002;&#x2002;&#x2002;&#x2002;Step 1: Turn on the power of the robotic arm. Open the &quot;COMMAND&quot; interface of Mirobot Studio software, enter &quot;M50&quot; and click &quot;Send&quot; to unlock each axis.
+<center><img src="http://lin88zhang.gitee.io/image_en/14/14-2.png" width="600"> </center>
+&#x2002;&#x2002;&#x2002;&#x2002;Step 2: Enter the &quot;SETTING&quot; interface, click &quot;Calibration-Start&quot;. 
+<center><img src="http://lin88zhang.gitee.io/image_en/14/14-3.png" width="600"> </center>
+&#x2002;&#x2002;&#x2002;&#x2002;Step 3: In JOINT MODE, control each axis to the corresponding position by adjusting the &quot;J1~J6&quot; on the right side of the interface.<br>
+<font color="red">Note: The 4th axis must be adjusted through negative steps (J4-). There has No special requirements for other axes. The 6th axis does not need Calibration.</font>
+<div align="center">
+<img src="http://lin88zhang.gitee.io/image_en/14/14-4.png" width="250"><img src="http://lin88zhang.gitee.io/image_en/14/14-5.png" width="250"><img src="http://lin88zhang.gitee.io/image_en/14/14-6.png" width="250">
+</div>
+<div align="center">
+Joint 1 homing position reference&#x2002;&#x2002;&#x2002;&#x2002;Joint 2 homing position reference&#x2002;&#x2002;&#x2002;&#x2002;Joint 3 homing position reference
+</div>
+
+<div align="center">
+<img src="http://lin88zhang.gitee.io/image_en/14/14-7.png" width="250"><img src="http://lin88zhang.gitee.io/image_en/14/14-8.png" width="250">
+</div>
+<div align="center">
+Joint 4 homing position reference&#x2002;&#x2002;&#x2002;&#x2002;Joint 5 homing position reference
+</div>
+<center>Pre-designed homing position of the Joint 1 to Joint 5</center>
+
+<p>&#x2002;&#x2002;&#x2002;&#x2002;Step 4: After each axis rotates to the corresponding position, enter the &quot;STTING&quot; interface again and click &quot;Finish&quot;.</p>
+<center><img src="http://lin88zhang.gitee.io/image_en/14/14-9.png" width="600"> </center>
+&#x2002;&#x2002;&#x2002;&#x2002;Step 5: After completing the calibration, click HOMING. The posture of the robot arm after homing is shown in the figure below.
+<center><img src="http://lin88zhang.gitee.io/image_en/1/1-22.png" width="400"> </center>
+<center>The correct manipulator position after a successful HOMING action</center> 
+
 <footer class="page-footer"><span class="copyright">powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2020-11-04 09:33:30
+2020-11-04 11:20:27
 </span></footer>
                                 
                                 </section>
@@ -421,12 +446,12 @@ Observe the following when using a Bluetooth remote control:<br>
 
             
                 
-                <a href="10-wlkata.html" class="navigation navigation-prev " aria-label="Previous page: 10. Copyright and Exemption from Declaration">
+                <a href="14-wlkata.html" class="navigation navigation-prev " aria-label="Previous page: 14. Interface description">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="12-wlkata.html" class="navigation navigation-next " aria-label="Next page: 12. Disclaimers">
+                <a href="16-wlkata.html" class="navigation navigation-next " aria-label="Next page: Appendix II">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -437,7 +462,7 @@ Observe the following when using a Bluetooth remote control:<br>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"11. Cautions and Disclaimers","level":"1.12","depth":1,"next":{"title":"12. Disclaimers","level":"1.13","depth":1,"path":"12-wlkata.md","ref":"12-wlkata.md","articles":[]},"previous":{"title":"10. Copyright and Exemption from Declaration","level":"1.11","depth":1,"path":"10-wlkata.md","ref":"10-wlkata.md","articles":[]},"dir":"ltr"},"config":{"plugins":["multilingual-index","github","disqus","-search","search-pro","tbfed-pagefooter","insert-logo","splitter","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"disqus":{"useIdentifier":false,"shortName":"gitbookuse"},"github":{"url":"https://github.com/lin-nice"},"livereload":{},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"multilingual-index":{"enableSuper":false,"index":"index.html"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"url":"images/logo.png","style":"background: none; max-height: 50px; min-height: 50px"}},"theme":"default","author":"curvaboy","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Mirobot使用教程","language":"en","gitbook":"*","description":"插件：多语言、评论、搜索、github、编辑"},"file":{"path":"11-wlkata.md","mtime":"2020-11-04T01:33:30.464Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-11-04T01:28:16.434Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Appendix I","level":"1.16","depth":1,"next":{"title":"Appendix II","level":"1.17","depth":1,"path":"16-wlkata.md","ref":"16-wlkata.md","articles":[]},"previous":{"title":"14. Interface description","level":"1.15","depth":1,"path":"14-wlkata.md","ref":"14-wlkata.md","articles":[]},"dir":"ltr"},"config":{"plugins":["multilingual-index","github","disqus","-search","search-pro","tbfed-pagefooter","insert-logo","splitter","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"disqus":{"useIdentifier":false,"shortName":"gitbookuse"},"github":{"url":"https://github.com/lin-nice"},"livereload":{},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"multilingual-index":{"enableSuper":false,"index":"index.html"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"url":"images/logo.png","style":"background: none; max-height: 50px; min-height: 50px"}},"theme":"default","author":"curvaboy","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Mirobot使用教程","language":"en","gitbook":"*","description":"插件：多语言、评论、搜索、github、编辑"},"file":{"path":"15-wlkata.md","mtime":"2020-11-04T03:20:27.222Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-11-04T01:28:16.434Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
