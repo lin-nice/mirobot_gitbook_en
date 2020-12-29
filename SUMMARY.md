@@ -14,6 +14,7 @@
 * [12. Disclaimers](12-wlkata.md)
 * [13. Working principle and specification](13-wlkata.md)
 * [14. Interface description](14-wlkata.md)
+* [15. WLKATA Mirobot APP Manual](18-wlkata.md)
 * [Appendix I](15-wlkata.md)
 * [Appendix II](16-wlkata.md)
 * [Appendix III](17-wlkata.md)
