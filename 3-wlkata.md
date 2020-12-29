@@ -4,7 +4,7 @@
 ##Step 1. Introduction of Blockly panel
 &ensp;&ensp;&ensp;&ensp;Click the BLOCKLY tab in the software interface to switch to Blockly panel.<br/>
 &ensp;&ensp;&ensp;&ensp;Drag and drop the Blockly module from the Selection Panel 1 to the Programming Panel 2 to program. The Code Panel 3 would show the python codes of the Blockly module on the Programming Panel. Drag the dividing axis to adjust the size of the work area or hide the code area.<br/>
-<center><img src="http://lin88zhang.gitee.io/image/3/3-1.png" width="350"> </center>
+<center><img src="http://lin88zhang.gitee.io/image_en/3/3-1.png" width="600"> </center>
 <center>The Blockly graphic programming funtion</center>
 
 ##Step 2. Basic functions 
@@ -19,7 +19,7 @@
 
 ##Step 3. Blockly programming module
 &ensp;&ensp;&ensp;&ensp;There are 14 commonly used programming code blocks in the action options:
-<center><img src="http://lin88zhang.gitee.io/image/3/3-2.png" width="350"> </center>
+<center><img src="http://lin88zhang.gitee.io/image_en/3/3-2.png" width="600"> </center>
 &ensp;&ensp;&ensp;&ensp;Reset：homing the Mirobot<br/>
 &ensp;&ensp;&ensp;&ensp;Zero position: the Mirobot moves from the current position to the full zero position under the angle mode. <br/>
 &ensp;&ensp;&ensp;&ensp;Pause send() seconds: the next instruction is issued after the program delays the specified time.<br/>
@@ -36,7 +36,7 @@
 &ensp;&ensp;&ensp;&ensp;Arc trajectory movement: draw the arc according to the requirements of arc trajectory movement.<br/>
 
 ##Step 4. A sample of Blocly programming: making the robotic arm move
-<center><img src="http://lin88zhang.gitee.io/image/3/3-3.png" width="350"> </center>
+<center><img src="http://lin88zhang.gitee.io/image_en/3/3-3.png" width="600"> </center>
 Action explanation：<br/>
 &ensp;&ensp;&ensp;&ensp;Homing the robotic arm<br/>
 &ensp;&ensp;&ensp;&ensp;The following actions cycle 10 times<br/>

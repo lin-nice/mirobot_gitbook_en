@@ -20,11 +20,11 @@
 </div>
 <center>The method of connecting the Pneumatic Set with the manipulator</center>
 &ensp;&ensp;&ensp;&ensp;(8) Control the pneumatic tool status (suction cup on and off): The pneumatic tool can be controlled under the COMMAND, TEACHING and BLOCKLY functions in the WLKATA Studio:<br/>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;•In the COMMAND page, control the pneumatic tool by click the End-effect on and End-effector off buttons on the right panel. <br/>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;•In the TEACHING page, control the pneumatic tool by editing the Trigger cell and Value cell of the teaching point line. <br/>
+&ensp;&ensp;&ensp;&ensp;&rArr;In the COMMAND page, control the pneumatic tool by click the End-effect on and End-effector off buttons on the right panel. <br/>
+&ensp;&ensp;&ensp;&ensp;&rArr;In the TEACHING page, control the pneumatic tool by editing the Trigger cell and Value cell of the teaching point line. <br/>
 <center><img src="http://lin88zhang.gitee.io/image_en/6/6-7.png" width="600"> </center>
 <center>Controlling the pneumatic tool in the TEACHING function</center>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;•In the BLOCKLY page, control the pneumatic tool by drag and edit the Suction Cup module which can be found in the Motion panel. <br/>
+&ensp;&ensp;&ensp;&ensp;&rArr;In the BLOCKLY page, control the pneumatic tool by drag and edit the Suction Cup module which can be found in the Motion panel. <br/>
 <center><img src="http://lin88zhang.gitee.io/image_en/6/6-8.png" width="600"> </center>
 <center>Controlling the pneumatic tool in the BLOCKLY function</center>
 &ensp;&ensp;&ensp;&ensp;(9) When finish using the gripper, <font color="red">Power off</font> the manipulator, and <font color="red">unplug</font> the IDC cable from the back of manipulator.

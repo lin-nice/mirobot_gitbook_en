@@ -14,6 +14,3 @@
 <center><img src="http://lin88zhang.gitee.io/image_en/18/18-3.png" width="500"  > </center>
 
 ##Step 4: To start the operation, you first need to press and hold Homing to reset the robotic arm, and then perform other operations
-
-<center><img src="http://lin88zhang.gitee.io/image_en/18/18-4.png" width="600"  > </center>
-<center><img src="http://lin88zhang.gitee.io/image_en/18/18-5.png" width="600"  > </center>

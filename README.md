@@ -39,7 +39,7 @@
 &ensp;&ensp;&ensp;&ensp;This chapter introduces the safety precautions when using this device. Please read this manual carefully before using the manipulator for the first time. This device should be used in an environment that meets the below requirements. Do not modify the device without authorization. Otherwise, it may cause device failure, even personal injury, electric shock, fire, etc. The installation, operation, teaching, programming, and system development personnel of the manipulator must first read the manual carefully and use the manipulator in strict accordance with the specifications of the manual.<br/>
 
 ###4.1 General Safety
-**<center>DO NOT Change or Modify the Circuit or Wire.</center>**
+**DO NOT Change or Modify the Circuit or Wire**
 ***
 <span  class="left"><img src="http://lin88zhang.gitee.io/image_en/0/0-18.png" width="60" ></span>The manipulator is an electrical equipment. Nonprofessionals are not allowed to change or modify the circuit or wire. Otherwise, it is easy to cause injury to the equipment or person.<br/>
 ***
@@ -60,50 +60,64 @@ When using the manipulator, the following safety rules shall be followed:<br/><b
 &diams;Before operating the manipulator, please refer to this WLKATA Mirobot User Manual which is downloadable in the WLKATA official website.<br/>
 
 ###4.2 Precautions
-**<center>I. Lifting and Handling Mirobot Correctly</center>**
+**I. Lifting and Handling Mirobot Correctly**
 ***
 <span  class="left"><img src="http://lin88zhang.gitee.io/image_en/0/0-19.png" width="60" ></span>Always remember to lift and handling Mirobot by holding the Lower Arm with one hand and holding the Base with the other hand. One should not lift or handle Mirobot by holding the Upper Arm, or it would cause a damage to the motor gears of the major joints.<br/>
 ***
 <div align="center">
 <img src="http://lin88zhang.gitee.io/image_en/0/0-20.png" width="300"><img src="http://lin88zhang.gitee.io/image_en/0/0-21.png" width="200">
 </div>
-
-**<center>II. Be Careful of Your Finger and Preventing Pinching</center>**
+<br/><br/>
+<br/><br/>
+<br/><br/>
+**II. Be Careful of Your Finger and Preventing Pinching**
 ***
 <span  class="left"><img src="http://lin88zhang.gitee.io/image_en/0/0-19.png" width="60" ></span>When the manipulator is during operation, do not place your fingers in the gap between the upper and lower arms, or the cap between the lower arm and base to prevent pinching.<br/>
 ***
 <center><img src="http://lin88zhang.gitee.io/image_en/0/0-22.png" width="300" > </center>
-
-**<center>III. DO NOT Twisting the Joints by Hand!</center>**
+<br/><br/>
+<br/><br/>
+<br/><br/>
+**III. DO NOT Twisting the Joints by Hand!**
 ***
 <span class="left"><img src="http://lin88zhang.gitee.io/image_en/0/0-19.png" width="60" ></span>DO NOT (!) twist the Joint 1 or Joint 3 by hand in any case, since this would lead to a fetal damage to these joints (due to the high reduction gear ratio of these motors). It is only allowed to adjust the joints by using WLKATA studio or proper operation software.<br/>
 ***
 <center><img src="http://lin88zhang.gitee.io/image_en/0/0-23.png" width="600" > </center>
-
-**<center>IV. Caution the Hot Surface of Motor & Chip</center>**
+<br/><br/>
+<br/><br/>
+<br/><br/>
+**IV. Caution the Hot Surface of Motor & Chip**
 ***
 <span class="left"><img src="http://lin88zhang.gitee.io/image_en/0/0-19.png" width="60" ></span>When Mirobot is powered on, DO NOT (!) touch the surface of joint 6 motor or the chip by hand, as those parts could be very hot during working.<br/>
 ***
 <center><img src="http://lin88zhang.gitee.io/image_en/0/0-24.png" width="300" > </center>
-
-**<center>V. Press the RESET Bottom for a Hardware Emergency Stop</center>**
+<br/><br/>
+<br/><br/>
+<br/><br/>
+**V. Press the RESET Bottom for a Hardware Emergency Stop**
 ***
 <span class="left"><img src="http://lin88zhang.gitee.io/image_en/0/0-19.png" width="60" ></span>In any case of illegal or abnormal operation of the Mirobot, one should press the RESET button immediately on the top of the Mirobot base for an emergency stop. Then before any further operation, remember to execute the HOMING action.<br/>
 ***
 <center><img src="http://lin88zhang.gitee.io/image_en/0/0-25.png" width="300" > </center>
-
-**<center>VI. Execute HOMING action on Each Time Powering on or re-connect the Mirobot manipulator</center>**
+<br/><br/>
+<br/><br/>
+<br/><br/>
+**VI. Execute HOMING action on Each Time Powering on or re-connect the Mirobot manipulator**
 ***
 <span class="left"><img src="http://lin88zhang.gitee.io/image_en/0/0-19.png" width="60" ></span>Each Time the manipulator is powered on, RESET from an emergency stop, or reopen the WLKATA studio, the user must execute the HOMING action by click the HOMING button in WLKATA Studio to homing the joints position. One should wait for the HOMING action to be completed before any further operation. (Please refer to 3.4.2 for detailed instruction).<br/>
 ***
 <center><img src="http://lin88zhang.gitee.io/image_en/0/0-26.png" width="600" > </center>
-
-**<center>VII. Unplugging All External Components When Powered Off</center>**
+<br/><br/>
+<br/><br/>
+<br/><br/>
+**VII. Unplugging All External Components When Powered Off**
 ***
 <span class="left"><img src="http://lin88zhang.gitee.io/image_en/0/0-19.png" width="60" ></span>When power off the manipulator, please disconnect and unplug all external components from the manipulator, such as Bluetooth box, extender box, color sensor, sliding rail, conveyor belt etc. Otherwise the manipulator and the external components may be damaged.<br/>
 ***
-
-**<center>VIII. Avoid Using This Device for Laser Engraving</center>**
+<br/><br/>
+<br/><br/>
+<br/><br/>
+**VIII. Avoid Using This Device for Laser Engraving**
 ***
 <span class="left"><img src="http://lin88zhang.gitee.io/image_en/0/0-18.png" width="60" ></span>This manipulator is not designed for executing laser engraving. For users who use this device in potentially hazardous conditions, one should wear full personnel protection equipment, including glass, glove and use proper protection cover unit, etc.<br/>
 ***
