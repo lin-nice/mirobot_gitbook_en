@@ -41,7 +41,31 @@
 &emsp;&emsp;Connects the robot arm and the multifunctional expansion module with the IDC cable, as shown in the figure. Then turns on the power supply of the robot arm.
 
 ###2.Using the end-effector tools
+<<<<<<< HEAD
 &emsp;&emsp;For details, please refer to "Using the Pneumatic Set/Using the gripper module"
+=======
+<<<<<<< HEAD
+&emsp;&emsp;For details, please refer to "Using the gripper module/Using the Pneumatic Set"
+=======
+<<<<<<< HEAD
+&emsp;&emsp;For details, please refer to "Using the gripper module/Using the Pneumatic Set"
+=======
+<<<<<<< HEAD
+&emsp;&emsp;For details, please refer to "Using the gripper module/Using the Pneumatic Set"
+=======
+<<<<<<< HEAD
+&emsp;&emsp;For details, please refer to "Using the gripper module/Using the Pneumatic Set"
+=======
+<<<<<<< HEAD
+&emsp;&emsp;For details, please refer to "Using the gripper module/Using the Pneumatic Set"
+=======
+&emsp;&emsp;For details, please refer to "Using the Pneumatic Set"
+>>>>>>> 6550c3e6f879b88ad7b8f317a718173e1cd1ab48
+>>>>>>> a9a641b74c2e1f0f9ffe215d1b4fc56f57ccfafb
+>>>>>>> a5b25b6899f06c37c73cf2cfe67a0966c84e4973
+>>>>>>> 4bf30be580c9fcbf4e5db2bd397de78c70fe7fb0
+>>>>>>> 33568094e86ae0f242955ef1d28674f24ec50fc2
+>>>>>>> 38d6acccb088c525eec521ae68069ee9fd972544
 ###3.Using the mobile phone APP (Only supporting Android system)
 &emsp;&emsp;Step 1: Download and install the APP.<br/>
 &emsp;&emsp;&emsp;&emsp;Download Address: https://www.wlkata.com/support/download-center
