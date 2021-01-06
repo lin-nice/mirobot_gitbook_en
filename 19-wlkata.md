@@ -41,7 +41,8 @@
 &emsp;&emsp;Connects the robot arm and the multifunctional expansion module with the IDC cable, as shown in the figure. Then turns on the power supply of the robot arm.
 
 ###2.Using the end-effector tools
-&emsp;&emsp;For details, please refer to "Using the Pneumatic Set/Using the gripper module"
+&emsp;&emsp;For details, please refer to "Using the Pneumatic Set/Using the gripper module"<br/>
+
 ###3.Using the mobile phone APP (Only supporting Android system)
 &emsp;&emsp;Step 1: Download and install the APP.<br/>
 &emsp;&emsp;&emsp;&emsp;Download Address: https://www.wlkata.com/support/download-center
